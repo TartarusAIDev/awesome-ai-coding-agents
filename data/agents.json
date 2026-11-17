@@ -1,0 +1,1098 @@
+{
+  "$schema": "./schema.json",
+  "updated": "2026-11-17",
+  "count": 42,
+  "notes": "Source-verified fields (github, license, stars, last_commit) come from the GitHub API on the 'verified' date. Editorial fields (category, interface, local_models, provider_flexibility, tool_execution, platforms, pricing) are best-effort classification and may lag; values can be true/false/\"partial\"/\"unknown\". See docs/methodology.md.",
+  "agents": [
+    {
+      "id": "aide",
+      "name": "Aide",
+      "homepage": "https://aide.dev",
+      "github": "https://github.com/codestoryai/aide",
+      "description": "Open-source AI-native IDE (VS Code fork) with an agentic mode.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "AGPL-3.0",
+      "stars": 2187,
+      "last_commit": "2025-02-25",
+      "local_models": "unknown",
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "homepage": "https://aider.chat/",
+      "github": "https://github.com/Aider-AI/aider",
+      "description": "Terminal pair-programmer that edits your git repo; bring your own model.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 50153,
+      "last_commit": "2026-05-22",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "amazon-q",
+      "name": "Amazon Q Developer",
+      "homepage": "https://aws.amazon.com/q/developer/",
+      "github": null,
+      "description": "AWS coding assistant and agent across IDEs and the command line.",
+      "category": "ide-agent",
+      "interface": [
+        "ide",
+        "cli"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": false,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "augment",
+      "name": "Augment Code",
+      "homepage": "https://www.augmentcode.com",
+      "github": null,
+      "description": "Context-aware assistant and agent aimed at large codebases.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "autogpt",
+      "name": "AutoGPT",
+      "homepage": "https://agpt.co",
+      "github": "https://github.com/Significant-Gravitas/AutoGPT",
+      "description": "Platform for building and running autonomous AI agents, including coding ones.",
+      "category": "autonomous",
+      "interface": [
+        "browser"
+      ],
+      "open_source": true,
+      "license": "NOASSERTION",
+      "stars": 188071,
+      "last_commit": "2026-11-17",
+      "local_models": "unknown",
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "bolt-diy",
+      "name": "bolt.diy",
+      "homepage": "https://stackblitz-labs.github.io/bolt.diy/",
+      "github": "https://github.com/stackblitz-labs/bolt.diy",
+      "description": "Open-source, in-browser full-stack AI app builder (the OSS of bolt.new).",
+      "category": "autonomous",
+      "interface": [
+        "browser"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 20098,
+      "last_commit": "2026-11-16",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "chatdev",
+      "name": "ChatDev",
+      "homepage": "https://arxiv.org/abs/2307.07924",
+      "github": "https://github.com/OpenBMB/ChatDev",
+      "description": "Multi-agent framework simulating a virtual software company.",
+      "category": "autonomous",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 34764,
+      "last_commit": "2026-11-06",
+      "local_models": "unknown",
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "homepage": "https://code.claude.com/docs/en/overview",
+      "github": "https://github.com/anthropics/claude-code",
+      "description": "Anthropic's agentic coding tool for the terminal; edits files and runs commands.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": false,
+      "license": "NOASSERTION",
+      "stars": 155973,
+      "last_commit": "2026-11-17",
+      "local_models": false,
+      "provider_flexibility": false,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "paid",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "cline",
+      "name": "Cline",
+      "homepage": "https://cline.bot",
+      "github": "https://github.com/cline/cline",
+      "description": "Agentic coding in VS Code; plans and executes edits with your approval.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 71705,
+      "last_commit": "2026-11-17",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "homepage": "https://continue.dev",
+      "github": "https://github.com/continuedev/continue",
+      "description": "Open-source IDE assistant (chat, autocomplete, agent) for VS Code and JetBrains.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 36503,
+      "last_commit": "2026-11-16",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "crush",
+      "name": "Crush",
+      "homepage": "https://github.com/charmbracelet/crush",
+      "github": "https://github.com/charmbracelet/crush",
+      "description": "Charm's glamorous terminal coding agent; multi-provider.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "NOASSERTION",
+      "stars": 29106,
+      "last_commit": "2026-11-17",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "homepage": "https://cursor.com",
+      "github": null,
+      "description": "AI-first code editor (a VS Code fork) with agentic edits and chat.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "devika",
+      "name": "Devika",
+      "homepage": "https://winfunc.com",
+      "github": "https://github.com/stitionai/devika",
+      "description": "Open-source autonomous AI software engineer (community project).",
+      "category": "autonomous",
+      "interface": [
+        "browser"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 19546,
+      "last_commit": "2025-09-25",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "devin",
+      "name": "Devin",
+      "homepage": "https://devin.ai",
+      "github": null,
+      "description": "Cognition's hosted autonomous software engineer.",
+      "category": "autonomous",
+      "interface": [
+        "browser"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": false,
+      "tool_execution": true,
+      "platforms": [
+        "web"
+      ],
+      "pricing": "paid",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "devon",
+      "name": "Devon",
+      "homepage": "https://github.com/entropy-research/Devon",
+      "github": "https://github.com/entropy-research/Devon",
+      "description": "Open-source pair-programmer agent (community project).",
+      "category": "autonomous",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "AGPL-3.0",
+      "stars": 3451,
+      "last_commit": "2025-05-26",
+      "local_models": "unknown",
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "gemini-cli",
+      "name": "Gemini CLI",
+      "homepage": "https://geminicli.com",
+      "github": "https://github.com/google-gemini/gemini-cli",
+      "description": "Google's open-source terminal agent for the Gemini models.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 108893,
+      "last_commit": "2026-11-17",
+      "local_models": false,
+      "provider_flexibility": false,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "homepage": "https://github.com/features/copilot",
+      "github": null,
+      "description": "GitHub's assistant: completion, chat and an agent mode across many IDEs.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "goose",
+      "name": "Goose",
+      "homepage": "https://goose-docs.ai/",
+      "github": "https://github.com/aaif-goose/goose",
+      "description": "Open agent (CLI + desktop) that runs tasks with your choice of LLM provider.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 56706,
+      "last_commit": "2026-11-17",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "gpt-engineer",
+      "name": "GPT Engineer",
+      "homepage": "https://github.com/AntonOsika/gpt-engineer",
+      "github": "https://github.com/AntonOsika/gpt-engineer",
+      "description": "Specify an app in natural language and let it generate the codebase.",
+      "category": "autonomous",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 54951,
+      "last_commit": "2025-05-14",
+      "local_models": "unknown",
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "gpt-pilot",
+      "name": "GPT Pilot / Pythagora",
+      "homepage": "https://github.com/Pythagora-io/gpt-pilot",
+      "github": "https://github.com/Pythagora-io/gpt-pilot",
+      "description": "Builds apps step by step with developer oversight; VS Code extension.",
+      "category": "autonomous",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "NOASSERTION",
+      "stars": 33643,
+      "last_commit": "2026-06-18",
+      "local_models": "unknown",
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "jetbrains-ai",
+      "name": "JetBrains AI (Junie)",
+      "homepage": "https://www.jetbrains.com/ai-assistant/",
+      "github": null,
+      "description": "JetBrains' in-IDE assistant and the Junie coding agent.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": "partial",
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "kilo-code",
+      "name": "Kilo Code",
+      "homepage": "https://kilo.ai/",
+      "github": "https://github.com/Kilo-Org/kilocode",
+      "description": "Open-source VS Code agent combining autocomplete, chat and multi-step edits.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 28031,
+      "last_commit": "2026-11-17",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "metagpt",
+      "name": "MetaGPT",
+      "homepage": "https://atoms.dev/",
+      "github": "https://github.com/FoundationAgents/MetaGPT",
+      "description": "Multi-agent framework that assigns software-company roles to LLMs.",
+      "category": "autonomous",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 71322,
+      "last_commit": "2026-01-21",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "open-interpreter",
+      "name": "Open Interpreter",
+      "homepage": "http://openinterpreter.com/",
+      "github": "https://github.com/openinterpreter/openinterpreter",
+      "description": "Natural-language interface that runs code locally to complete tasks.",
+      "category": "autonomous",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 68895,
+      "last_commit": "2026-11-15",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "openai-codex",
+      "name": "OpenAI Codex CLI",
+      "homepage": "https://github.com/openai/codex",
+      "github": "https://github.com/openai/codex",
+      "description": "OpenAI's open-source coding agent for the terminal.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 135612,
+      "last_commit": "2026-11-17",
+      "local_models": "unknown",
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "opencode",
+      "name": "OpenCode",
+      "homepage": "https://opencode.ai",
+      "github": "https://github.com/anomalyco/opencode",
+      "description": "Provider-agnostic AI coding agent for the terminal.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 227447,
+      "last_commit": "2026-11-17",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "openhands",
+      "name": "OpenHands",
+      "homepage": "https://openhands.dev",
+      "github": "https://github.com/OpenHands/OpenHands",
+      "description": "Autonomous software-engineering agent that works in a sandboxed environment.",
+      "category": "autonomous",
+      "interface": [
+        "cli",
+        "browser"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 93630,
+      "last_commit": "2026-11-17",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "plandex",
+      "name": "Plandex",
+      "homepage": "https://plandex.dev",
+      "github": "https://github.com/plandex-ai/plandex",
+      "description": "Terminal agent for large, multi-file tasks with a diff-review workflow.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 15923,
+      "last_commit": "2025-10-03",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "qwen-code",
+      "name": "Qwen Code",
+      "homepage": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
+      "github": "https://github.com/QwenLM/qwen-code",
+      "description": "Command-line coding agent adapted for the Qwen-Coder models.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 30707,
+      "last_commit": "2026-11-17",
+      "local_models": true,
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "refact",
+      "name": "Refact.ai",
+      "homepage": "https://refact.ai",
+      "github": "https://github.com/smallcloudai/refact",
+      "description": "Self-hostable coding agent with autocomplete, chat and tool use.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "BSD-3-Clause",
+      "stars": 3528,
+      "last_commit": "2026-05-30",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "replit-agent",
+      "name": "Replit Agent",
+      "homepage": "https://replit.com/ai",
+      "github": null,
+      "description": "Hosted agent in the Replit browser IDE that builds and deploys apps.",
+      "category": "autonomous",
+      "interface": [
+        "browser"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": false,
+      "tool_execution": true,
+      "platforms": [
+        "web"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "roo-code",
+      "name": "Roo Code",
+      "homepage": "https://roocode.com",
+      "github": "https://github.com/RooCodeInc/Roo-Code",
+      "description": "A fork of Cline with extra modes; agentic coding in VS Code.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 24238,
+      "last_commit": "2026-05-15",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "cody",
+      "name": "Sourcegraph Cody",
+      "homepage": "https://sourcegraph.com/cody",
+      "github": null,
+      "description": "Sourcegraph's assistant with codebase-wide context across IDEs.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": "partial",
+      "tool_execution": "partial",
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "swe-agent",
+      "name": "SWE-agent",
+      "homepage": "https://swe-agent.com",
+      "github": "https://github.com/SWE-agent/SWE-agent",
+      "description": "Research agent that resolves GitHub issues; strong on SWE-bench.",
+      "category": "autonomous",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 20821,
+      "last_commit": "2026-11-16",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "sweep",
+      "name": "Sweep",
+      "homepage": "https://github.com/sweepai/sweep",
+      "github": "https://github.com/sweepai/sweep",
+      "description": "Turns issues and tickets into pull requests.",
+      "category": "autonomous",
+      "interface": [
+        "api"
+      ],
+      "open_source": true,
+      "license": "NOASSERTION",
+      "stars": 7710,
+      "last_commit": "2025-09-18",
+      "local_models": "unknown",
+      "provider_flexibility": "unknown",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "unknown",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "tabby",
+      "name": "Tabby",
+      "homepage": "https://tabbyml.com",
+      "github": "https://github.com/TabbyML/tabby",
+      "description": "Self-hosted AI coding assistant (completion + chat) you run on your own GPU.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "NOASSERTION",
+      "stars": 33933,
+      "last_commit": "2026-06-30",
+      "local_models": true,
+      "provider_flexibility": "unknown",
+      "tool_execution": false,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "tabnine",
+      "name": "Tabnine",
+      "homepage": "https://www.tabnine.com",
+      "github": null,
+      "description": "Privacy-focused assistant with self-hosted / air-gapped deployment options.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": "partial",
+      "provider_flexibility": "partial",
+      "tool_execution": "partial",
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "tartarus",
+      "name": "Tartarus",
+      "homepage": "https://tartarusai.dev/?utm_source=github&utm_medium=dataset&utm_campaign=awesome-ai-coding-agents&utm_content=tartarus",
+      "github": "https://github.com/TartarusAIDev/tartarus-console",
+      "description": "Uncensored coding agent: a terminal CLI plus an OpenAI-compatible API. Org-owned; listed transparently. SDK and MCP server are MIT.",
+      "category": "cli-agent",
+      "interface": [
+        "cli",
+        "api"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": false,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "paid",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "twinny",
+      "name": "Twinny",
+      "homepage": "https://twinny.dev",
+      "github": "https://github.com/twinnydotdev/twinny",
+      "description": "Free, private VS Code assistant that works with local Ollama models.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 3701,
+      "last_commit": "2026-11-16",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": "partial",
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "void",
+      "name": "Void",
+      "homepage": "https://voideditor.com",
+      "github": "https://github.com/voideditor/void",
+      "description": "Open-source VS Code fork with a built-in agent; supports local models.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "Apache-2.0",
+      "stars": 28707,
+      "last_commit": "2026-06-02",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "windsurf",
+      "name": "Windsurf",
+      "homepage": "https://windsurf.com",
+      "github": null,
+      "description": "Agentic IDE (formerly Codeium) built around a multi-step 'Cascade' agent.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": false,
+      "license": "proprietary",
+      "stars": null,
+      "last_commit": null,
+      "local_models": false,
+      "provider_flexibility": "partial",
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "freemium",
+      "source": "homepage",
+      "verified": "2026-11-17"
+    },
+    {
+      "id": "zed",
+      "name": "Zed",
+      "homepage": "https://zed.dev",
+      "github": "https://github.com/zed-industries/zed",
+      "description": "High-performance editor with a built-in multi-provider coding agent.",
+      "category": "ide-agent",
+      "interface": [
+        "ide"
+      ],
+      "open_source": true,
+      "license": "NOASSERTION",
+      "stars": 95198,
+      "last_commit": "2026-11-17",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-17"
+    }
+  ]
+}

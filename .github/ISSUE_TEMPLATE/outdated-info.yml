@@ -1,0 +1,24 @@
+name: Report outdated info
+description: A field is stale or wrong for a listed agent
+labels: ["outdated"]
+body:
+  - type: input
+    id: agent
+    attributes: { label: Which agent }
+    validations: { required: true }
+  - type: input
+    id: field
+    attributes:
+      label: Which field
+      description: e.g. license, pricing, local_models, last_commit
+    validations: { required: true }
+  - type: input
+    id: correct
+    attributes: { label: What it should say }
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link that backs the correction (repo LICENSE, docs, pricing page).
+    validations: { required: true }

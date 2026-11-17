@@ -1,0 +1,40 @@
+name: Suggest an agent
+description: Propose a new AI coding agent for the list
+labels: ["new-agent"]
+body:
+  - type: markdown
+    attributes:
+      value: "One agent per issue. Facts must be verifiable."
+  - type: input
+    id: name
+    attributes: { label: Name }
+    validations: { required: true }
+  - type: input
+    id: homepage
+    attributes: { label: Homepage URL }
+    validations: { required: true }
+  - type: input
+    id: github
+    attributes:
+      label: GitHub repo (owner/repo)
+      description: Leave blank if it's closed-source.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options: [cli-agent, ide-agent, autonomous]
+    validations: { required: true }
+  - type: checkboxes
+    id: criteria
+    attributes:
+      label: It meets the inclusion criteria
+      options:
+        - label: It writes/edits code with an LLM (more than autocomplete)
+          required: true
+        - label: The homepage (and repo, if open-source) resolves today
+          required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Local-model support, provider flexibility, pricing — with a source link if you can.

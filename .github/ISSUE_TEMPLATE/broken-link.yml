@@ -1,0 +1,21 @@
+name: Report a broken link
+description: A homepage or repo link is dead or redirects somewhere wrong
+labels: ["broken-link"]
+body:
+  - type: input
+    id: agent
+    attributes: { label: Which agent }
+    validations: { required: true }
+  - type: input
+    id: url
+    attributes: { label: The broken URL }
+    validations: { required: true }
+  - type: input
+    id: replacement
+    attributes:
+      label: Correct URL (if you know it)
+  - type: input
+    id: status
+    attributes:
+      label: What you saw
+      description: e.g. 404, redirects to an unrelated site, domain for sale

@@ -1,0 +1,29 @@
+name: Correct a comparison
+description: An editorial classification (category, interface, capability flag) is wrong
+labels: ["correction"]
+body:
+  - type: input
+    id: agent
+    attributes: { label: Which agent }
+    validations: { required: true }
+  - type: dropdown
+    id: field
+    attributes:
+      label: Which classification
+      options:
+        - category
+        - interface
+        - local_models
+        - provider_flexibility
+        - tool_execution
+        - platforms
+    validations: { required: true }
+  - type: textarea
+    id: correct
+    attributes:
+      label: What it should be, and why
+      description: Remember these are editorial. "partial" / "unknown" are valid values.
+    validations: { required: true }
+  - type: input
+    id: source
+    attributes: { label: Source link }

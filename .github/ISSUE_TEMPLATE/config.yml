@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: How entries are verified
+    url: https://github.com/TartarusAIDev/awesome-ai-coding-agents/blob/main/docs/methodology.md
+    about: Read the methodology before reporting a "wrong" field.
+  - name: Tartarus (the maintainer)
+    url: https://tartarusai.dev/?utm_source=github&utm_medium=issue-config&utm_campaign=awesome-ai-coding-agents&utm_content=maintainer
+    about: The uncensored coding agent behind this list.
