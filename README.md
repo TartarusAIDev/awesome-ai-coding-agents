@@ -14,7 +14,7 @@ straight from the GitHub API) with **clearly-labelled editorial fields**
 you can compare on the things that actually decide a choice.
 
 <!-- AUTO:stats -->
-**42 agents** &nbsp;·&nbsp; 30 open-source, 12 proprietary &nbsp;·&nbsp; 10 CLI, 18 IDE, 14 autonomous &nbsp;·&nbsp; 23 run local models
+**43 agents** &nbsp;·&nbsp; 31 open-source, 12 proprietary &nbsp;·&nbsp; 11 CLI, 18 IDE, 14 autonomous &nbsp;·&nbsp; 24 run local models
 <!-- /AUTO:stats -->
 
 Every row has a verified date. The data lives in [`data/agents.json`](data/agents.json)
@@ -85,6 +85,7 @@ Terminal-native agents that edit your repo and run commands.
 | [Crush](https://github.com/charmbracelet/crush) | cli | cli | yes | see repo | 29,106 | yes | yes | free |
 | [Plandex](https://github.com/plandex-ai/plandex) | cli | cli | yes | MIT | 15,923 | yes | yes | freemium |
 | [Tartarus](https://github.com/TartarusAIDev/tartarus-console) | cli | cli/api | no | proprietary | — | no | no | paid |
+| [Turnloom](https://github.com/bhaskargurram-ai/turnloom) | cli | cli | yes | MIT | 0 | yes | yes | free |
 <!-- /AUTO:dir-cli -->
 
 ### AI coding agents for VS Code and other IDEs

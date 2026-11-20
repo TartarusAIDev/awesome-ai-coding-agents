@@ -488,5 +488,19 @@
     "stars": 29292,
     "archived": false,
     "pushed_at": "2026-11-15T06:16:28Z"
+  },
+  {
+    "slug": "bhaskargurram-ai/turnloom",
+    "cat": "cli-agent",
+    "iface": "cli",
+    "name": "turnloom",
+    "full_name": "bhaskargurram-ai/turnloom",
+    "github": "https://github.com/bhaskargurram-ai/turnloom",
+    "homepage": "https://pypi.org/project/turnloom/",
+    "desc": "A coding agent whose context you can inspect: folded tool output stays recoverable, edits are reviewable and reversible, every call is metered. Terminal, desktop Studio, MCP and ACP.",
+    "license": "MIT",
+    "stars": 0,
+    "archived": false,
+    "pushed_at": "2026-11-20T23:26:33Z"
   }
 ]
