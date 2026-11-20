@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
-  "updated": "2026-11-17",
-  "count": 42,
+  "updated": "2026-11-20",
+  "count": 43,
   "notes": "Source-verified fields (github, license, stars, last_commit) come from the GitHub API on the 'verified' date. Editorial fields (category, interface, local_models, provider_flexibility, tool_execution, platforms, pricing) are best-effort classification and may lag; values can be true/false/\"partial\"/\"unknown\". See docs/methodology.md.",
   "agents": [
     {
@@ -990,6 +990,32 @@
       "pricing": "paid",
       "source": "homepage",
       "verified": "2026-11-17"
+    },
+    {
+      "id": "turnloom",
+      "name": "Turnloom",
+      "homepage": "https://pypi.org/project/turnloom/",
+      "github": "https://github.com/bhaskargurram-ai/turnloom",
+      "description": "Small terminal coding agent with a local web UI; folds old tool output out of the prompt but keeps it recoverable.",
+      "category": "cli-agent",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "MIT",
+      "stars": 0,
+      "last_commit": "2026-11-20",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "pricing": "free",
+      "source": "github-api",
+      "verified": "2026-11-20"
     },
     {
       "id": "twinny",

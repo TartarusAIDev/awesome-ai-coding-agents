@@ -121,6 +121,9 @@ OSS = [
  ("OpenBMB/ChatDev","chatdev","ChatDev",
   "Multi-agent framework simulating a virtual software company.",
   "autonomous",["cli"],"unknown","partial",True,ALL,"free", True),
+ ("bhaskargurram-ai/turnloom","turnloom","Turnloom",
+  "Small terminal coding agent with a local web UI; folds old tool output out of the prompt but keeps it recoverable.",
+  "cli-agent",["cli"],True,True,True,ALL,"free", True),
 ]
 
 # proprietary / hosted — no verifiable OSS repo; homepage checked live.
