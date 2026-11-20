@@ -488,5 +488,19 @@
     "stars": 29292,
     "archived": false,
     "pushed_at": "2026-11-15T06:16:28Z"
+  },
+  {
+    "slug": "moasko/appforge-studio",
+    "cat": "ide-agent",
+    "iface": "ide",
+    "name": "appforge-studio",
+    "full_name": "moasko/appforge-studio",
+    "github": "https://github.com/moasko/appforge-studio",
+    "homepage": null,
+    "desc": "Agent IA de bureau open source pour cr\u00e9er, tester, h\u00e9berger et d\u00e9ployer des apps mobiles Expo + backend \u2014 avec Claude, OpenAI, Ollama ou LM Studio.",
+    "license": "MIT",
+    "stars": 0,
+    "archived": false,
+    "pushed_at": "2026-11-20T21:52:33Z"
   }
 ]

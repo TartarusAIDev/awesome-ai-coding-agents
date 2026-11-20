@@ -14,7 +14,7 @@ straight from the GitHub API) with **clearly-labelled editorial fields**
 you can compare on the things that actually decide a choice.
 
 <!-- AUTO:stats -->
-**42 agents** &nbsp;·&nbsp; 30 open-source, 12 proprietary &nbsp;·&nbsp; 10 CLI, 18 IDE, 14 autonomous &nbsp;·&nbsp; 23 run local models
+**43 agents** &nbsp;·&nbsp; 31 open-source, 12 proprietary &nbsp;·&nbsp; 10 CLI, 19 IDE, 14 autonomous &nbsp;·&nbsp; 24 run local models
 <!-- /AUTO:stats -->
 
 Every row has a verified date. The data lives in [`data/agents.json`](data/agents.json)
@@ -105,6 +105,7 @@ Agents that live inside an editor (VS Code, JetBrains, or their own fork).
 | [Refact.ai](https://github.com/smallcloudai/refact) | ide | ide | yes | BSD-3-Clause | 3,528 | yes | yes | freemium |
 | [Aide](https://github.com/codestoryai/aide) | ide | ide | yes | AGPL-3.0 | 2,187 | ? | partial | freemium |
 | [Amazon Q Developer](https://aws.amazon.com/q/developer/) | ide | ide/cli | no | proprietary | — | no | no | freemium |
+| [AppForge Studio](https://github.com/moasko/appforge-studio) | ide | ide | yes | MIT | 0 | yes | yes | free |
 | [Augment Code](https://www.augmentcode.com) | ide | ide | no | proprietary | — | no | partial | freemium |
 | [Cursor](https://cursor.com) | ide | ide | no | proprietary | — | no | partial | freemium |
 | [GitHub Copilot](https://github.com/features/copilot) | ide | ide | no | proprietary | — | no | partial | freemium |
