@@ -488,5 +488,19 @@
     "stars": 29292,
     "archived": false,
     "pushed_at": "2026-11-15T06:16:28Z"
+  },
+  {
+    "slug": "juw12/talos",
+    "cat": "cli-agent",
+    "iface": "cli",
+    "name": "talos",
+    "full_name": "juw12/talos",
+    "github": "https://github.com/juw12/talos",
+    "homepage": "https://juw12.github.io/talos/",
+    "desc": "Talos - one AI agent with the features of OpenCode and Hermes Agent, plus its own",
+    "license": "MIT",
+    "stars": 0,
+    "archived": false,
+    "pushed_at": "2026-11-23T02:59:02Z"
   }
 ]
