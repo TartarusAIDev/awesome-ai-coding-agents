@@ -1,7 +1,7 @@
 {
   "$schema": "./schema.json",
   "updated": "2026-11-17",
-  "count": 42,
+  "count": 43,
   "notes": "Source-verified fields (github, license, stars, last_commit) come from the GitHub API on the 'verified' date. Editorial fields (category, interface, local_models, provider_flexibility, tool_execution, platforms, pricing) are best-effort classification and may lag; values can be true/false/\"partial\"/\"unknown\". See docs/methodology.md.",
   "agents": [
     {
@@ -705,6 +705,31 @@
       "pricing": "freemium",
       "source": "github-api",
       "verified": "2026-11-17"
+    },
+    {
+      "id": "orbi",
+      "name": "Orbi",
+      "homepage": "https://orbi.build",
+      "github": "https://github.com/orbi-build/orbi",
+      "description": "Turns labelled GitHub Issues into independently reviewed, merged pull requests and tagged releases.",
+      "category": "autonomous",
+      "interface": [
+        "cli"
+      ],
+      "open_source": true,
+      "license": "AGPL-3.0",
+      "stars": 260,
+      "last_commit": "2026-11-25",
+      "local_models": true,
+      "provider_flexibility": true,
+      "tool_execution": true,
+      "platforms": [
+        "linux",
+        "macos"
+      ],
+      "pricing": "freemium",
+      "source": "github-api",
+      "verified": "2026-11-25"
     },
     {
       "id": "plandex",

@@ -488,5 +488,19 @@
     "stars": 29292,
     "archived": false,
     "pushed_at": "2026-11-15T06:16:28Z"
+  },
+  {
+    "slug": "orbi-build/orbi",
+    "cat": "autonomous",
+    "iface": "cli",
+    "name": "orbi",
+    "full_name": "orbi-build/orbi",
+    "github": "https://github.com/orbi-build/orbi",
+    "homepage": "https://orbi.build",
+    "desc": "Open-source (AGPL-3.0), self-hostable lights-out software factory for the agent era: label a GitHub Issue, get an independently reviewed, merged PR and a tagged release.",
+    "license": "AGPL-3.0",
+    "stars": 260,
+    "archived": false,
+    "pushed_at": "2026-11-25T11:53:22Z"
   }
 ]
