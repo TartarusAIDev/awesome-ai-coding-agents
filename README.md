@@ -14,7 +14,7 @@ straight from the GitHub API) with **clearly-labelled editorial fields**
 you can compare on the things that actually decide a choice.
 
 <!-- AUTO:stats -->
-**42 agents** &nbsp;·&nbsp; 30 open-source, 12 proprietary &nbsp;·&nbsp; 10 CLI, 18 IDE, 14 autonomous &nbsp;·&nbsp; 23 run local models
+**43 agents** &nbsp;·&nbsp; 31 open-source, 12 proprietary &nbsp;·&nbsp; 10 CLI, 18 IDE, 15 autonomous &nbsp;·&nbsp; 24 run local models
 <!-- /AUTO:stats -->
 
 Every row has a verified date. The data lives in [`data/agents.json`](data/agents.json)
@@ -134,6 +134,7 @@ Agents that take a goal and work multiple steps with less hand-holding
 | [Devika](https://github.com/stitionai/devika) | autonomous | browser | yes | MIT | 19,546 | yes | yes | free |
 | [Sweep](https://github.com/sweepai/sweep) | autonomous | api | yes | see repo | 7,710 | ? | ? | unknown |
 | [Devon](https://github.com/entropy-research/Devon) | autonomous | cli | yes | AGPL-3.0 | 3,451 | ? | yes | free |
+| [Orbi](https://github.com/orbi-build/orbi) | autonomous | cli | yes | AGPL-3.0 | 260 | yes | yes | freemium |
 | [Devin](https://devin.ai) | autonomous | browser | no | proprietary | — | no | no | paid |
 | [Replit Agent](https://replit.com/ai) | autonomous | browser | no | proprietary | — | no | no | freemium |
 <!-- /AUTO:dir-auto -->
